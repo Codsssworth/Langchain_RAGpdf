@@ -1,0 +1,10 @@
+fastapi==0.95.2
+uvicorn==0.22.0  # For running the FastAPI server
+streamlit==1.25.0
+websockets==11.0.3  # For handling WebSocket communication in Streamlit
+langchain==0.0.156
+openai==0.27.0  # For LangChain and embeddings
+PyPDF2==3.0.1  # For PDF reading in langchain_handler.py
+Chroma # For vector storage with FAISS
+python-dotenv  # To manage environment variables
+chromadb==<latest_version>
